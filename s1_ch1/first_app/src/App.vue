@@ -22,6 +22,8 @@
   <h2>Method Testing</h2>
   <br>
   <MethodExplore />
+  <br>
+  <Exercise8 />
  
 </template>
 <script>
@@ -33,6 +35,7 @@ import Exercise5 from './components/Exercise1-05.vue'
 import Exercise6 from './components/Exercise1-06.vue'
 import Exercise7 from './components/Exercise1-07.vue'
 import MethodExplore from './components/MethodExplore.vue'
+import Exercise8 from './components/Exercise1-08.vue'
 export default {
   components: {
     Exercise,
@@ -42,7 +45,8 @@ export default {
     Exercise5,
     Exercise6,
     Exercise7,
-    MethodExplore
+    MethodExplore,
+    Exercise8
 
   }
 
