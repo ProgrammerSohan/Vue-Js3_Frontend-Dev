@@ -18,6 +18,10 @@
   <br>
   <h2> Using v-for to loop through the properties of object</h2>
   <Exercise7 />
+  <br>
+  <h2>Method Testing</h2>
+  <br>
+  <MethodExplore />
  
 </template>
 <script>
@@ -28,6 +32,7 @@ import Exercise4 from './components/Exercise1-04.vue'
 import Exercise5 from './components/Exercise1-05.vue'
 import Exercise6 from './components/Exercise1-06.vue'
 import Exercise7 from './components/Exercise1-07.vue'
+import MethodExplore from './components/MethodExplore.vue'
 export default {
   components: {
     Exercise,
@@ -36,7 +41,9 @@ export default {
     Exercise4,
     Exercise5,
     Exercise6,
-    Exercise7
+    Exercise7,
+    MethodExplore
+
   }
 
 }
