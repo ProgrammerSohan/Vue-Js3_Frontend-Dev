@@ -4,6 +4,11 @@
         <ul>
             <li v-for="(item, n) in interests" :key="n">
                 {{item.title}}
+                <ol>
+                    <li v-for="(fav, m) in item.favorites" :key="m">
+                        {{ fav}}
+                    </li>
+                </ol>
             </li>
         </ul>
     </div>
