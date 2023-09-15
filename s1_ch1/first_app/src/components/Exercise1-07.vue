@@ -2,7 +2,7 @@
     <div>
         <div v-for="(value, key) in information"
          :key="key">
-        {{key}}: {{value}}
+        {{key}}: {{value.toString() }}
         </div>
     </div>
 </template>
