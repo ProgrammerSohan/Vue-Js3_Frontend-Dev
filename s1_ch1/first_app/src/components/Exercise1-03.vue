@@ -1,9 +1,10 @@
 <template lang="">
     <div>
             <!-- <h1>{{ text }}</h1> -->
-            <h1 v-once v-text="text"></h1>
-            <h2 v-html="html"></h2>
+            <h1 v-if="false" v-once v-text="text"></h1>
+            <h2 v-html="html" v-else-if="false"></h2>
             <a 
+                v-else
                 :href="link.url"
                 :target="link.target"
                 :tabindex="link.tabindex"
