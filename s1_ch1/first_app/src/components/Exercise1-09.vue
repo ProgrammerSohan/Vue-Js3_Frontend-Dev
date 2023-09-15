@@ -2,6 +2,15 @@
     <div>
         <h1>Returning Methods</h1>
         <div>Cart({{ totalItems}}) {{totalCost}}</div>
+        <ul>
+            <li v-for="n in 5" :key="n">
+                <button @click="addToCart(n)">
+                    Add {{ n }}
+                </button>
+
+            </li>
+
+        </ul>
     </div>
 </template>
 <script>
@@ -26,5 +35,8 @@
 
 </script>
 <style>
+button {
+    margin: 10px;
+}
 
 </style>
