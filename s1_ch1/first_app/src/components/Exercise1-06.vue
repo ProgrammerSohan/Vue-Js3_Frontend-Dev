@@ -4,7 +4,7 @@
         <ul>
             <li v-for="(item, n) in interests" :key="n">
                 {{item.title}}
-                <ol>
+                <ol v-if="item.favorites.length>1">
                     <li v-for="(fav, m) in item.favorites" :key="m">
                         {{ fav}}
                     </li>
@@ -27,6 +27,10 @@
         title: "Sports",
         favorites: [],
     },
+    {
+        title: "Cricket",
+        favorites:["Sachin","Gayle","Brett Lee"]
+    }
 
  ];
 
