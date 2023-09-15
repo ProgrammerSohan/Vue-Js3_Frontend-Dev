@@ -24,6 +24,8 @@
   <MethodExplore />
   <br>
   <Exercise8 />
+  <br>
+  <Exercise9 />
  
 </template>
 <script>
@@ -36,6 +38,7 @@ import Exercise6 from './components/Exercise1-06.vue'
 import Exercise7 from './components/Exercise1-07.vue'
 import MethodExplore from './components/MethodExplore.vue'
 import Exercise8 from './components/Exercise1-08.vue'
+import Exercise9 from './components/Exercise1-09.vue'
 export default {
   components: {
     Exercise,
@@ -46,7 +49,8 @@ export default {
     Exercise6,
     Exercise7,
     MethodExplore,
-    Exercise8
+    Exercise8,
+    Exercise9
 
   }
 
