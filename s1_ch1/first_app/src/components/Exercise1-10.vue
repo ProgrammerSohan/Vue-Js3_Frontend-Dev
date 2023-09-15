@@ -27,6 +27,12 @@ export default {
             ]
 
         }
+    },
+    beforeCreate(){
+        alert('beforeCreate: data is static, thats it');
+    },
+    created(){
+        alert('created: data and events ready, but no DOM');
     }
 
 }
