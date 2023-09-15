@@ -15,6 +15,9 @@
   <Exercise5 />
   <br>
   <Exercise6 />
+  <br>
+  <h2> Using v-for to loop through the properties of object</h2>
+  <Exercise7 />
  
 </template>
 <script>
@@ -24,6 +27,7 @@ import Exercise3 from './components/Exercise1-03.vue'
 import Exercise4 from './components/Exercise1-04.vue'
 import Exercise5 from './components/Exercise1-05.vue'
 import Exercise6 from './components/Exercise1-06.vue'
+import Exercise7 from './components/Exercise1-07.vue'
 export default {
   components: {
     Exercise,
@@ -31,7 +35,8 @@ export default {
     Exercise3,
     Exercise4,
     Exercise5,
-    Exercise6
+    Exercise6,
+    Exercise7
   }
 
 }
