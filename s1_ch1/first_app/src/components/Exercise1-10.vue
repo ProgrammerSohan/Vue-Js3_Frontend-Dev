@@ -28,12 +28,21 @@ export default {
 
         }
     },
+    /*
     beforeCreate(){
         alert('beforeCreate: data is static, thats it');
     },
     created(){
         alert('created: data and events ready, but no DOM');
-    }
+    }*/
+
+    beforeMount(){
+        alert('beforeMount: $el not ready');
+    },
+    mounted(){
+        alert('mounted: DOM ready to use');
+
+    },
 
 }
 
