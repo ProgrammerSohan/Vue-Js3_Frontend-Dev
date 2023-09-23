@@ -13,6 +13,7 @@
 </template>
 <script>
 export default {
+    /*
     data(){
         return {
             list: [
@@ -27,7 +28,7 @@ export default {
             
             ]
 
-        }
+        },
     },
     /*
     beforeCreate(){
@@ -44,18 +45,27 @@ export default {
         alert('mounted: DOM ready to use');
 
     },*/
-
+/*
     methods:{
         deleteItem(value){
             this.list = this.list.filter(item=>item !== value)
         },
 
-    },
+    },*/
+    /*
     beforeUpdate(){
         alert('beforeUpdate: we know an update is about to happen, and have the data');
     },
     updated(){
         alert('updated: virtual DOM will update after you click ok');
+    },*/
+
+    beforeUnmount(){
+        alert('beforeUnmount: about to blow up this component');
+    },
+    unmounted(){
+        alert('unmounted: this component has been destroyed');
+
     },
 
 }
