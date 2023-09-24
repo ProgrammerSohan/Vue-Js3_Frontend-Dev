@@ -13,7 +13,7 @@
 </template>
 <script>
 export default {
-    /*
+
     data(){
         return {
             list: [
@@ -28,16 +28,16 @@ export default {
             
             ]
 
-        },
+        }
     },
-    /*
+/*
     beforeCreate(){
         alert('beforeCreate: data is static, thats it');
     },
     created(){
         alert('created: data and events ready, but no DOM');
-    }*/
-/*
+    },
+
     beforeMount(){
         alert('beforeMount: $el not ready');
     },
@@ -45,13 +45,13 @@ export default {
         alert('mounted: DOM ready to use');
 
     },*/
-/*
+
     methods:{
         deleteItem(value){
             this.list = this.list.filter(item=>item !== value)
         },
 
-    },*/
+    },
     /*
     beforeUpdate(){
         alert('beforeUpdate: we know an update is about to happen, and have the data');
