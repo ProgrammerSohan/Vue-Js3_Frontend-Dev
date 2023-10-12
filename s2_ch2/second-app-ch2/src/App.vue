@@ -10,6 +10,8 @@
   <Exercise2a />
   <br>
   <Testex21 />
+  <br>
+  <Exercise202/>
 
 </template>
 <script>
@@ -18,6 +20,7 @@
   import Computedproperty1 from './components/Computed-property1.vue'
   import Exercise2a from './components/Exercise2-01.vue'
   import Testex21 from './components/Testex21.vue'
+  import Exercise202 from './components/Exercise2-02.vue'
 
 export default{
   components: {
@@ -25,7 +28,9 @@ export default{
     Computedproperty0,
     Computedproperty1,
     Exercise2a,
-    Testex21
+    Testex21,
+    Exercise202
+
   }
   
 
